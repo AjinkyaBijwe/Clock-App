@@ -1,0 +1,313 @@
+.flip-clock-wrapper ul li a div div.inn {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 200%;
+    color: #ff7800;
+    text-shadow: 0 1px 2px #000;
+    text-align: center;
+    background-color: rgb(255, 198, 77);
+    border-radius: 5px;
+    font-size: 75px;
+}
+
+.flip-clock-dot {
+    display: block;
+    background: #FF9800;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    left: 5px;
+}
+.flip-clock-meridium a {
+    color: #ff7800;
+}
+
+.flip-clock-wrapper .flip {
+	box-shadow: 0px 0px 8px 2px #f27100;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  content: "";
+  position: absolute;
+  top: 44px;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  background-color: rgba(4, 4, 4, 0.15); 
+  }
+
+  
+ /*
+ Weather CSS
+  Docs at http://http://simpleweatherjs.com
+
+  Look inspired by http://www.degreees.com/
+  Used for demo purposes.
+
+  Weather icon font from http://fonts.artill.de/collection/artill-weather-icons
+
+  DO NOT hotlink the assets/font included in this demo. If you wish to use the same font icon then download it to your local assets at the link above. If you use the links below odds are at some point they will be removed and your version will break.
+*/
+
+body {
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#weather {
+	text-align: center;
+	text-transform: uppercase; 
+}
+
+i {
+  color: rgb(255, 226, 0);
+  font-family: weather;
+  font-size: 130px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  position: relative;
+  display: inline;
+  color: rgb(255, 226, 0);
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: #fff;
+    background: rgba(242, 113, 0, 0.68);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(255, 214, 0);
+}
+
+button {
+    margin-bottom: 0px !important;
+    margin: 15px auto;
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    background: rgba(255, 122, 3, 0.79);
+    color: rgb(253, 253, 253);
+    border: 0;
+    border-radius: 5px;
+}
+
+#city{
+    display: inline;
+    width: 193px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000000;
+    background-color: #f98b2c;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    boder: initial;
+}
+
+#weatherPlace {
+	position: relative;
+}
+
+.location {
+    display: inline;
+}
+
+.city-autocomplete {
+    position: relative;
+    z-index: 10000;
+    width: 188px;
+    left:-74px;
+	margin: 0px auto 0px auto; 
+    background: rgb(255, 220, 169);
+    top: calc(100vh - 670px);
+    border: 1px solid #0095ff;
+    color: black;
+    font-family: Arial, sans-serif;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.city-autocomplete > div {
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.city-autocomplete > div:hover {
+    background: #c3cacf;
+}
+
+.city-autocomplete > div > .city {
+    font: inherit;
+}
+
+.city-autocomplete > div > .state,
+.city-autocomplete > div > .country {
+    color: #555;
+    font-size: 10px;
+    margin: 0 3px;
+}
+
+@media only screen and (max-width:1280px){
+.clockBody{
+	transform: scale(0.9);
+ } 
+}
+@media only screen and (max-width:1180px){
+.clockBody{
+	transform: scale(0.8);
+	margin-left:-6vh;
+ } 
+}
+@media only screen and (max-width:980px){
+.clockBody{
+	transform: scale(0.7);
+	margin-left:-6vh;
+ } 
+}
+@media only screen and (max-width:880px){
+.clockBody{
+	transform: scale(0.6);
+	margin-left:-6vh;
+ } 
+}
+@media only screen and (max-width:780px){
+.clockBody{
+	transform: scale(0.5);
+	margin-left:-6vh;
+ } 
+}
+@media only screen and (max-width:680px){
+.clockBody{
+	transform: scale(0.4);
+	margin-left:-6vh;
+ } 
+}
+
+@media only screen and (max-width:580px){
+.clockBody{
+	transform: scale(0.2=3);
+	margin-left:-6vh;
+ } 
+}
+
+#weather-more { 
+display:inline;
+}
+
+.buttonDiv{
+	width: 284px; 
+	padding: 5px; 
+	margin: 0px auto 0px auto; 
+}
+
+#weather .currently {
+  margin: 0 5px;
+}
+
+#weather .currently-more {
+  margin: 0 5px;
+}
+
+#ownLocation{
+	width:340px;
+	margin: 0px auto 0px auto; 
+}
