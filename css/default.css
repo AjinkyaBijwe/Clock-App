@@ -311,3 +311,20 @@ display:inline;
 	width:340px;
 	margin: 0px auto 0px auto; 
 }
+
+.thought {
+    pointer-events: none;
+    width: 600px;
+    left: calc(50vw - 330px);
+    top: calc(50vh - 100px);
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    display: inherit;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #c35c01;
+    background-color: rgba(255, 129, 0, 0.1);
+}
