@@ -162,7 +162,7 @@ i {
 
 button {
     margin-bottom: 0px !important;
-    margin: 15px auto;
+    margin: 10px auto;
     width: 140px;
     height: 30px;
     padding: 5px;
@@ -200,12 +200,9 @@ button {
     display: inline;
 }
 
-.city-autocomplete {
-    position: relative;
+.city-autocomplete {	
     z-index: 10000;
-    width: 188px;
-    left:-74px;
-	margin: 0px auto 0px auto; 
+    width: 188px; 
     background: rgb(255, 220, 169);
     top: calc(100vh - 670px);
     border: 1px solid #0095ff;
@@ -247,45 +244,86 @@ button {
 }
 
 @media only screen and (max-width:1280px){
-.clockBody{
+.content{
+	transform: scale(0.9);
+ }
+ .footer{
 	transform: scale(0.9);
  } 
 }
 @media only screen and (max-width:1180px){
-.clockBody{
+.content{
 	transform: scale(0.8);
-	margin-left:-6vh;
+ } 
+ .footer{
+	transform: scale(0.8);
  } 
 }
 @media only screen and (max-width:980px){
-.clockBody{
+.content{
 	transform: scale(0.7);
-	margin-left:-6vh;
+	
+ } 
+ .footer{
+	transform: scale(0.7);
+	
  } 
 }
 @media only screen and (max-width:880px){
-.clockBody{
+.content{
 	transform: scale(0.6);
-	margin-left:-6vh;
+	
+ } 
+ .footer{
+	transform: scale(0.6);
+	
  } 
 }
 @media only screen and (max-width:780px){
-.clockBody{
+.content{
 	transform: scale(0.5);
-	margin-left:-6vh;
+	
+ } 
+ .footer{
+	transform: scale(0.5);
+	
  } 
 }
 @media only screen and (max-width:680px){
-.clockBody{
+.content{
 	transform: scale(0.4);
-	margin-left:-6vh;
+	
+ } 
+ .footer{
+	transform: scale(0.4);
+	
  } 
 }
-
 @media only screen and (max-width:580px){
-.clockBody{
-	transform: scale(0.2=3);
-	margin-left:-6vh;
+.content{
+	transform: scale(0.3);
+	
+ } 
+  .footer{
+	transform: scale(0.3);
+ } 
+}
+@media only screen and (max-width:480px){
+.content{
+	transform: scale(0.2);
+	
+ } 
+  .footer{
+	transform: scale(0.2);
+ } 
+}
+@media only screen and (max-width:380px){
+.content{
+	transform: scale(0.1);
+	
+ } 
+  .footer{
+	transform: scale(0.1);
  } 
 }
 
@@ -315,16 +353,56 @@ display:inline;
 .thought {
     pointer-events: none;
     width: 600px;
-    left: calc(50vw - 330px);
-    top: calc(50vh - 100px);
+    top: calc(30vh - 70px);
     margin: 0px auto 0px auto;
     border-radius: 10px;
     text-align: center;
-    position: absolute;
+    position: relative;
     display: inherit;
     padding: 10px;
     font-family: cursive;
     font-weight: bold;
-    color: #c35c01;
-    background-color: rgba(255, 129, 0, 0.1);
+    color: #480006;
+    background-color: rgba(255, 129, 0, 0.4);
+}
+
+html, body{
+	background-image: url(sunrise.jpg); 
+	background-size:cover; 
+	overflow: hidden;
+	width:100%;
+	margin: 0px;
+}
+
+.fullscreenButton {
+    width: 25px;
+    padding-right: 2px;
+    position: absolute;
+    right: 0px;
+    margin-top: 0px;
+}
+
+.AllDiv{
+	height:100%;
+	margin:0px auto 0px auto;
+}
+.content{
+	height:62%;
+	margin:0px auto 0px auto;
+}
+.footer{
+	top: calc(30vh - 180px);
+	height:38%;
+	margin:0px auto 0px auto;
+}
+
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+   overflow: auto !important;
+   background-image: url(sunrise.jpg) !important; 
+   background-size:cover !important; 
+   overflow: hidden;
+   background-color:none !important;
 }
