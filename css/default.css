@@ -1,3 +1,11 @@
+.clock {
+    zoom: 2;
+    padding-top: 4vh;
+    width: 530px;
+    margin: 0px auto 0px auto;
+    padding-left: 60px;
+}
+
 .flip-clock-wrapper ul li a div div.inn {
     position: absolute;
     left: 0;
@@ -245,85 +253,85 @@ button {
 
 @media only screen and (max-width:1280px){
 .content{
-	transform: scale(0.9);
+	zoom: 0.9;
  }
  .footer{
-	transform: scale(0.9);
+	zoom: 0.9;
  } 
 }
 @media only screen and (max-width:1180px){
 .content{
-	transform: scale(0.8);
+	zoom: 0.8;
  } 
  .footer{
-	transform: scale(0.8);
+	zoom: 0.8;
  } 
 }
 @media only screen and (max-width:980px){
 .content{
-	transform: scale(0.7);
+	zoom: 0.7;
 	
  } 
  .footer{
-	transform: scale(0.7);
+	zoom: 0.7;
 	
  } 
 }
 @media only screen and (max-width:880px){
 .content{
-	transform: scale(0.6);
+	zoom: 0.6;
 	
  } 
  .footer{
-	transform: scale(0.6);
+	zoom: 0.6;
 	
  } 
 }
 @media only screen and (max-width:780px){
 .content{
-	transform: scale(0.5);
+	zoom: 0.5;
 	
  } 
  .footer{
-	transform: scale(0.5);
+	zoom: 0.5;
 	
  } 
 }
 @media only screen and (max-width:680px){
 .content{
-	transform: scale(0.4);
+	zoom: 0.4;
 	
  } 
  .footer{
-	transform: scale(0.4);
+	zoom: 0.4;
 	
  } 
 }
 @media only screen and (max-width:580px){
 .content{
-	transform: scale(0.3);
+	zoom: 0.3;
 	
  } 
   .footer{
-	transform: scale(0.3);
+	zoom: 0.3;
  } 
 }
 @media only screen and (max-width:480px){
 .content{
-	transform: scale(0.2);
+	zoom: 0.2;
 	
  } 
   .footer{
-	transform: scale(0.2);
+	zoom: 0.2;
  } 
 }
 @media only screen and (max-width:380px){
 .content{
-	transform: scale(0.1);
+	zoom: 0.1;
 	
  } 
   .footer{
-	transform: scale(0.1);
+	zoom: 0.1;
  } 
 }
 
@@ -353,7 +361,7 @@ display:inline;
 .thought {
     pointer-events: none;
     width: 600px;
-    top: calc(30vh - 70px);
+    top: calc(30vh - 180px);
     margin: 0px auto 0px auto;
     border-radius: 10px;
     text-align: center;
