@@ -5,7 +5,7 @@
             show_country: false
         }, options);
         var autocompleteService = new google.maps.places.AutocompleteService();
-        var predictionsDropDown = $('<div class="city-autocomplete"></div>').appendTo('body');
+        var predictionsDropDown = $('<div class="city-autocomplete"></div>').appendTo('#ownLocation');
         var input = this;
 
         input.keyup(function() {

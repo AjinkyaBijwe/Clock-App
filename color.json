@@ -1,0 +1,989 @@
+{
+  "Code_0": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+  "Code_1": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_2": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_3": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_4": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_5": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_6": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_7": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_8": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_9": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_10": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_11": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_12": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_13": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_14": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_15": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_16": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_17": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_18": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_20": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_21": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_22": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_23": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_24": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_25": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_26": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_27": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_28": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_29": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_30": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_31": {
+    "flip": {
+      "shadow": "rgb(255, 141, 0) 0px 0px 8px 2px",
+      "wrapperColor": "rgb(255, 188, 66)",
+      "wrapperBackground" : "-webkit-linear-gradient(top, rgba(255,89,0,1) 0%, rgba(255,120,0,1) 50%, rgba(255,191,0,1) 100%)",
+      "dotBackground": "rgb(255, 165, 0)",
+      "meridium": "rgb(255, 165, 0)"
+    },
+    "thought": {
+      "background": "rgba(255, 144, 0, 0.15)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "rgb(255, 200, 0)",
+      "icon": "rgb(255, 200, 0)",
+      "liBackground": "rgb(255, 133, 7)",
+      "buttonBackground": "rgb(255, 133, 7)",
+      "cityBackground": "rgb(255, 133, 7)",
+      "cityAutocomplete": "rgb(255, 164, 70)"
+    }
+  },
+    "Code_32": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_33": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_34": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_35": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "linear-gradient(to bottom, rgba(255,89,0,1) 0%, rgba(255,120,0,1) 50%, rgba(255,191,0,1) 100%);",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_36": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_37": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_38": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_39": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_40": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_41": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_42": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_43": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_44": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+    "Code_45": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+  "Code_46": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  },
+  "Code_47": {
+    "flip": {
+      "shadow": "0px 0px 8px 2px #848484",
+      "wrapperColor": "#004a52",
+      "wrapperBackground" : "rgb(0, 43, 49)",
+      "dotBackground": "#004a52",
+      "meridium": "#003f46"
+    },
+    "thought": {
+      "background": "rgba(0, 43, 49, 0.53)",
+	  "color": "rgb(20, 20, 20)"
+    },
+    "weather": {
+      "h2": "#007b8c",
+      "icon": "#007b8c",
+      "liBackground": "rgba(0, 88, 77, 0.68)",
+      "buttonBackground": "rgba(0, 95, 87, 0.78)",
+      "cityBackground": "#3f947a",
+      "cityAutocomplete": "rgb(81, 171, 143)"
+    }
+  }
+}
