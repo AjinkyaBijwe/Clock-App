@@ -59,16 +59,15 @@ function loadWeather(location, woeid) {
 	  html += '<li class="currently-more">Heat Index : '+weather.heatindex+'</li>';  
 	  html += '<li class="currently-more">Wind Speed : '+weather.wind.speed+' </li>';  
       	  $("#weather").html(html);
-	  var background = weather.currently.replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '_');
-	  var backgroundLower = background.toLowerCase();
-	  $('.AllDiv').css('background-image', 'url(img/'+backgroundLower+'.jpg)');
+	  var background = weather.currently.replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '_').toLowerCase();
+	  $('.AllDiv').css('background-image', 'url(img/'+background+'.jpg)');
 	  $('#weather-more').hide();
 	  var colors = 'Code_'+weather.code;
 		//Start Json Parse
 		var JSON_Response;
 		$(document).ready(function () {
 			$.getJSON('color.json', function (data) {
-            JSON_Response = data; 		 
+           		 JSON_Response = data; 		 
 			
 			//Json Color Parse Start
 			
@@ -84,7 +83,7 @@ function loadWeather(location, woeid) {
 			
 			setInterval(function(){
 					$('.flip-clock-wrapper ul li a div div.inn').css("color", flipWrapperColor).css("background",flipBackground); 
-				}, 400);
+			}, 400);
 
 			//thought
 			var thoughtBackground = data[colors].thought.background;
