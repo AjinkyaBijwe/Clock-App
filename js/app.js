@@ -58,9 +58,10 @@ function loadWeather(location, woeid) {
 	  html += '<li class="currently-more">Humidity : '+weather.humidity+'</li>';  
 	  html += '<li class="currently-more">Heat Index : '+weather.heatindex+'</li>';  
 	  html += '<li class="currently-more">Wind Speed : '+weather.wind.speed+' </li>';  
-      $("#weather").html(html);
+      	  $("#weather").html(html);
 	  var background = weather.currently.replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '_');
-	  $('.AllDiv').css('background-image', 'url(img/'+background+'.jpg)');
+	  var backgroundLower = background.toLowerCase();
+	  $('.AllDiv').css('background-image', 'url(img/'+backgroundLower+'.jpg)');
 	  $('#weather-more').hide();
 	  var colors = 'Code_'+weather.code;
 		//Start Json Parse
