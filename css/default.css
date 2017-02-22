@@ -357,7 +357,7 @@ display:inline;
 .thought {
     pointer-events: none;
     width: 900px;
-    top: calc(30vh - 180px);
+    top: calc(10vh - -25px);
     margin: 0px auto 0px auto;
     border-radius: 10px;
     text-align: center;
@@ -367,7 +367,7 @@ display:inline;
     font-family: Courgette;
     font-weight: bold;
     color: #ffffff;
-	left: -12.5px;
+    left: -12.5px;
     background-color: rgba(255, 129, 0, 0.4);
 }
 
