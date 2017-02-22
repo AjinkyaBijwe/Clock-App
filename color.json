@@ -254,22 +254,22 @@
     "Code_12": {
     "flip": {
       "shadow": "0px 0px 8px 2px #848484",
-      "wrapperColor": "#004a52",
-      "wrapperBackground" : "rgb(0, 43, 49)",
-      "dotBackground": "#004a52",
-      "meridium": "#003f46"
+      "wrapperColor": "#ffffff",
+      "wrapperBackground" : "-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,162,171,1) 100%)",
+      "dotBackground": "-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,162,171,1) 100%)",
+      "meridium": "#ffffff"
     },
     "thought": {
-      "background": "rgba(0, 43, 49, 0.53)",
-	  "color": "rgb(20, 20, 20)"
+      "background": "rgba(0, 130, 138, 0.51)",
+	  "color": "rgb(255, 255, 255)"
     },
     "weather": {
-      "h2": "#007b8c",
-      "icon": "#007b8c",
-      "liBackground": "rgba(0, 88, 77, 0.68)",
-      "buttonBackground": "rgba(0, 95, 87, 0.78)",
-      "cityBackground": "#3f947a",
-      "cityAutocomplete": "rgb(81, 171, 143)"
+      "h2": "rgb(142, 249, 255)",
+      "icon": "rgb(142, 249, 255)",
+      "liBackground": "rgba(0, 161, 171, 0.8)",
+      "buttonBackground": "rgba(0, 161, 171, 0.8)",
+      "cityBackground": "rgba(0, 161, 171, 0.8)",
+      "cityAutocomplete": "rgba(0, 161, 171, 0.8)"
     }
   },
     "Code_13": {
@@ -526,23 +526,23 @@
   },
     "Code_26": {
     "flip": {
-      "shadow": "0px 0px 8px 2px #848484",
-      "wrapperColor": "#004a52",
-      "wrapperBackground" : "rgb(0, 43, 49)",
-      "dotBackground": "#004a52",
-      "meridium": "#003f46"
+      "shadow": "rgb(255, 255, 255) 0px 0px 8px 2px",
+      "wrapperColor": "#cacacb",
+      "wrapperBackground" : "-webkit-linear-gradient(top, rgb(2, 83, 138) 0%, rgb(1, 34, 77) 100%)",
+      "dotBackground": "-webkit-linear-gradient(top, rgb(2, 83, 138) 0%, rgb(1, 34, 77) 100%)",
+      "meridium": "#dcdcdc"
     },
     "thought": {
-      "background": "rgba(0, 43, 49, 0.53)",
-	  "color": "rgb(20, 20, 20)"
+      "background": "rgba(2, 82, 137, 0.54)",
+	  "color": "rgb(255, 255, 255)"
     },
     "weather": {
-      "h2": "#007b8c",
-      "icon": "#007b8c",
-      "liBackground": "rgba(0, 88, 77, 0.68)",
-      "buttonBackground": "rgba(0, 95, 87, 0.78)",
-      "cityBackground": "#3f947a",
-      "cityAutocomplete": "rgb(81, 171, 143)"
+      "h2": "rgb(1, 43, 88)",
+      "icon": "rgb(1, 43, 88)",
+      "liBackground": "rgba(2, 57, 106, 0.75)",
+      "buttonBackground": "rgba(2, 57, 106, 0.75)",
+      "cityBackground": "rgba(2, 57, 106, 0.75)",
+      "cityAutocomplete": "rgba(2, 57, 106, 0.75)"
     }
   },
     "Code_27": {
@@ -570,7 +570,7 @@
     "flip": {
       "shadow": "0px 0px 8px 2px #848484",
       "wrapperColor": "#004a52",
-      "wrapperBackground" : "rgb(0, 43, 49)",
+      "wrapperBackground" : "-webkit-linear-gradient(top, rgba(163,215,255,1) 0%, rgba(0,49,133,1) 100%)",
       "dotBackground": "#004a52",
       "meridium": "#003f46"
     },
