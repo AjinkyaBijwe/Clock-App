@@ -153,12 +153,14 @@ i {
     display: inline-block;
     border-radius: 5px;
     font-size: 16px;
+    font-family: Roboto;
     color: #ffffff;
 }
 
 button {
     margin-bottom: 0px !important;
     margin: 10px auto;
+    font-family: Roboto !important;
     width: 140px;
     height: 30px;
     padding: 5px;
@@ -180,7 +182,8 @@ button:hover{
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #000000;
+    color: #ffffff;
+    font-family: Roboto;
     background-color: #f98b2c;
     background-image: none;
     border: 1px solid #ccc;
@@ -207,8 +210,8 @@ button:hover{
     background: rgb(255, 220, 169);
     top: calc(100vh - 670px);
     border: 1px solid #0095ff;
-    color: black;
-    font-family: Arial, sans-serif;
+    color: white;
+    font-family: Roboto;
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
@@ -230,7 +233,7 @@ button:hover{
 }
 
 .city-autocomplete > div:hover {
-    background: #c3cacf;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .city-autocomplete > div > .city {
@@ -239,7 +242,7 @@ button:hover{
 
 .city-autocomplete > div > .state,
 .city-autocomplete > div > .country {
-    color: #555;
+    color: #ccc;
     font-size: 10px;
     margin: 0 3px;
 }
@@ -353,7 +356,7 @@ display:inline;
 
 .thought {
     pointer-events: none;
-    width: 690px;
+    width: 900px;
     top: calc(30vh - 180px);
     margin: 0px auto 0px auto;
     border-radius: 10px;
@@ -361,10 +364,15 @@ display:inline;
     position: relative;
     display: inherit;
     padding: 10px;
-    font-family: cursive;
+    font-family: Courgette;
     font-weight: bold;
     color: #ffffff;
+	left: -12.5px;
     background-color: rgba(255, 129, 0, 0.4);
+}
+
+blockquote .small, blockquote footer, blockquote small {
+      color: inherit !important;
 }
 
 html, body{
