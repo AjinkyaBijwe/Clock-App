@@ -5,7 +5,12 @@
             show_country: false
         }, options);
         var autocompleteService = new google.maps.places.AutocompleteService();
-        var predictionsDropDown = $('<div class="city-autocomplete"></div>').appendTo('#ownLocation');
+        var defaultLocation = localStorage.getItem('defaultLocation');
+        if(defaultLocation){
+            var predictionsDropDown = $('<div class="city-autocomplete"></div>').appendTo('#ownLocation');
+        }else{
+            var predictionsDropDown = $('<div class="city-autocomplete-initial"></div>').appendTo('#ownLocationInitital');
+        }
         var input = this;
 
         input.keyup(function() {
@@ -28,7 +33,7 @@
         });
 
         predictionsDropDown.delegate('div', 'click', function() {
-            input.val($(this).find('.city').text());
+            input.val($(this).find('.city').text()); 
             input.trigger('change');
             predictionsDropDown.hide();
         });
