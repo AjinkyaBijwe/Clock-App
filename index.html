@@ -4,12 +4,19 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 		<link rel="stylesheet" href="css/default.css">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="js/theysaidso.js"></script>
 	</head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<body class="clockBody">
 	<img src="css/Full_Screen.png" value="Fullscreen" class="fullscreenButton" onclick="toggleFullScreen(document.body)" />
+	<div id="dialog" title="Set Your Default Home Location">
+		<div id="ownLocationInitital">
+			<input class="cityInitial" name="cityInitial" autocomplete="off" id="cityInitial" required>		
+		</div>
+		<button type="submit" class="doneLocationInitial" onclick="initialLoad()">Done</button>
+	</div>
 	<div class="AllDiv">
 		<div class="content">
 		<div class="your-clock"></div>
@@ -25,14 +32,15 @@
 					<button class="location" onclick="moreData()">Show More</button>
 				</div> 
 				<div id="ownLocation">
-				<input id="city" name="city" autocomplete="off" required>		
-				<button type="submit" class="location" onclick="city()" style="height: 35px;">Done</button>
+				<input id="cityAfter" class="cityAfter" name="cityAfter" autocomplete="off" required>		
+				<button type="submit" class="doneLocation" onclick="city()" style="height: 35px;">Done</button>
 			</div>
 		</div>
 	</div>
 	</body>
 		<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDOzS7kH3JLGlHFYRbdoTkhy7vMYlypYlI&libraries=places&language=en"></script>
 		<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="js/jquery.city-autocomplete.js" type="text/javascript"></script>
 		<script src="js/jquery.simpleWeather.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
