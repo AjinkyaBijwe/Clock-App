@@ -3,10 +3,47 @@ $.getJSON('color.json', function (data) {
 });
 
 $(document).ready(function() {
+	$('#dialog').hide();
+    $('#ownLocation').hide();
+    $('#ownLocationInitital').hide();
+	
+	$('input#cityAfter').cityAutocomplete({
+	show_state: true,
+	show_country: true
+	});
+	$('input#cityInitial').cityAutocomplete({
+	show_state: true,
+	show_country: true
+	});
+	
 	//FlipClock
 	var clock = $('.clock').FlipClock({
 		clockFace: 'TwelveHourClock'
 	});
+// dialog
+   var defaultLocation = localStorage.getItem('defaultLocation');
+   if(!defaultLocation){
+	$("#dialog").dialog({
+      autoOpen: false,
+	  resizable: false,
+	  modal:true,
+	  minWidth:400,
+	  minHeight:300,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 1000
+      },
+	  closeOnEscape: false
+    });
+    $("#dialog").dialog( "open" );
+    $('#ownLocationInitital').show();
+   }else{
+   	loadWeather(defaultLocation,'');
+   } 
 
 	// GeoLocation 	
 	if ("geolocation" in navigator) {
@@ -14,11 +51,7 @@ $(document).ready(function() {
 	} else {
 		$('.js-geolocation').hide();
 	}
-
-	//Weather 
-	  var city = 'amravati';  
-	  loadWeather(city,''); //@params location, woeid
-	  $('#ownLocation').hide();
+	//Weather  //@params location, woeid
 	});
 
 function locate() {
@@ -39,14 +72,28 @@ function locate() {
 
 };
 
+
+function initialLoad(){
+  	      var defaultLocationCity = document.getElementById('cityInitial').value;
+		  if(defaultLocationCity){
+		  localStorage.setItem('defaultLocation', defaultLocationCity);	
+		  loadWeather(defaultLocationCity,'');  
+		  $('#dialog').dialog("close");
+		  $('#ownLocationInitital').hide();
+		  }else{
+			  return;
+		  }
+}
+
 function city(){
-	var city = document.getElementById('city').value;
+	var city = document.getElementById('cityAfter').value;
 	if(city) {
 	  loadWeather(city,'');
 	  $('#ownLocation').hide();
 	  containerHeight = "calc(30vh - 180px);"; 
 	  $("#weatherPlace").attr("style", "top:" + containerHeight);
   	  $(".js-geolocation").html('Enter Your Location');
+ 	  $(".location").html('Show More');
 	}else{
 	  return;
 	}
@@ -134,15 +181,10 @@ function changeWeatherColor(colorWeather){
 	$('i').css("color", colorWeather.icon);
 	$('#weather li').css("background", colorWeather.liBackground);
 	$('button').css("background", colorWeather.buttonBackground);
-	$('#city').css("background", colorWeather.cityBackground);
+	$('#cityAfter').css("background", colorWeather.cityBackground);
 	$('.city-autocomplete').css("background", colorWeather.cityAutocomplete);
 }
 // Autocomplete Div 
-
-$('input#city').cityAutocomplete({
-	show_state: true,
-	show_country: true
-});
 
 //Full Screen Support
 
