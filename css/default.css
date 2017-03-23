@@ -175,7 +175,7 @@ button:hover{
 	transition: ease-out 0.3s;
 }
 
-#city{
+#cityAfter{
     display: inline;
     width: 193px;
     height: 34px;
@@ -367,7 +367,7 @@ display:inline;
     font-family: Courgette;
     font-weight: bold;
     color: #ffffff;
-    left: -12.5px;
+	left: -12.5px;
     background-color: rgba(255, 129, 0, 0.4);
 }
 
@@ -416,4 +416,89 @@ html, body{
 
 blockquote.theysaidso_quote cite.author:before {
     content: "" !important;
+}
+
+
+#ownLocationInitital {
+    margin-top: 10px;
+    width: 100%;
+	height: 190px;
+}
+.doneLocationInitial{
+	margin-left: 30%;
+}
+
+.ui-widget-overlay {
+    background: black !important;
+    opacity: 0.9 !important;
+}
+.city-autocomplete-initial {	
+z-index: 10000;
+    width: 100%;
+    background: rgb(123, 199, 255);
+    color: black;
+    font-family: Roboto;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.52);
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+}
+.city-autocomplete-initial > div {
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#cityInitial{
+	width: 100% !important;
+    display: inline !important;
+    height: 35px!important;
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    color: #ffffff !important;
+    font-family: Roboto !important;
+    background-color: #1f71ff !important;
+    background-image: none !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+}
+
+.city-autocomplete-initial > div:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.city-autocomplete-initial > div > .city {
+    font: inherit;
+}
+.doneLocationInitial {
+    background: #1f71ff;
+}
+
+.city-autocomplete-initial > div > .state,
+.city-autocomplete-initial > div > .country {
+    color: #404040;
+    font-size: 10px;
+    margin: 0 3px;
+}
+#dialog {
+    background: rgb(0, 23, 76);
+}
+.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle {
+    background: #8ac8ff;
+}
+.ui-dialog-titlebar-close {
+    visibility: hidden;
 }
