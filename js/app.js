@@ -80,6 +80,7 @@ function initialLoad(){
 		  loadWeather(defaultLocationCity,'');  
 		  $('#dialog').dialog("close");
 		  $('#ownLocationInitital').hide();
+		  location.reload();
 		  }else{
 			  return;
 		  }
