@@ -60,7 +60,7 @@ function locate() {
   //});
     if ($('#ownLocation').is(":hidden")){
 	    $('#ownLocation').show();
-	    containerHeight = "calc(30vh - 320px);"; 
+	    containerHeight = "calc(30vh - 325px);"; 
 	    $("#weatherPlace").attr("style", "top:" + containerHeight);
 	    $(".js-geolocation").html('Hide Location');
     }else{
