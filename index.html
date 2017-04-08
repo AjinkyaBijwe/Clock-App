@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<body class="clockBody">
 	<img src="css/Full_Screen.png" value="Fullscreen" class="fullscreenButton" onclick="toggleFullScreen(document.body)" />
-	<div id="dialog" title="Set Your Default Home Location">
+	<div id="dialog" title="Please Set Your Default Home Location">
 		<div id="ownLocationInitital">
 			<input class="cityInitial" name="cityInitial" autocomplete="off" id="cityInitial" required>		
 		</div>
@@ -34,6 +34,7 @@
 				<div id="ownLocation">
 				<input id="cityAfter" class="cityAfter" name="cityAfter" autocomplete="off" required>		
 				<button type="submit" class="doneLocation" onclick="city()" style="height: 35px;">Done</button>
+				<button type="submit" class="clear-default-location" onclick="clearLocation()">Clear Default Location</button>
 			</div>
 		</div>
 	</div>

@@ -7,9 +7,9 @@
         var autocompleteService = new google.maps.places.AutocompleteService();
         var defaultLocation = localStorage.getItem('defaultLocation');
         if(defaultLocation){
-            var predictionsDropDown = $('<div class="city-autocomplete"></div>').appendTo('#ownLocation');
-        }else{
-            var predictionsDropDown = $('<div class="city-autocomplete-initial"></div>').appendTo('#ownLocationInitital');
+            var predictionsDropDown = $('<div class="city-autocomplete" onclick="showDefaultLocationButton()"></div>').appendTo('#ownLocation');
+        }else{	
+            var predictionsDropDown = $('<div class="city-autocomplete-initial onclick="showDefaultLocationButton()"></div>').appendTo('#ownLocationInitital');
         }
         var input = this;
 
@@ -29,6 +29,9 @@
                 autocompleteService.getPlacePredictions(params, updatePredictions);
             } else {
                 predictionsDropDown.hide();
+				if(document.getElementById('cityAfter').value.length == 0){
+				$('.clear-default-location').show();
+			}
             }
         });
 
@@ -74,6 +77,7 @@
             });
 
             predictionsDropDown.show();
+			$('.clear-default-location').hide();
         }
 
         return input;

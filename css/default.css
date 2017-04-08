@@ -425,12 +425,13 @@ blockquote.theysaidso_quote cite.author:before {
 	height: 190px;
 }
 .doneLocationInitial{
-	margin-left: 30%;
+	margin-left: calc(50% - 70px);
+    display: block;
 }
 
 .ui-widget-overlay {
-    background: black !important;
-    opacity: 0.9 !important;
+    background: url(../img/clear_night_.jpg) !important;
+    opacity: 1 !important;
 }
 .city-autocomplete-initial {	
 z-index: 10000;
@@ -494,11 +495,36 @@ z-index: 10000;
     margin: 0 3px;
 }
 #dialog {
-    background: rgb(0, 23, 76);
+    background: #000e31;
 }
 .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle {
-    background: #8ac8ff;
+	background: #071e52;
+    color: white;
 }
 .ui-dialog-titlebar-close {
     visibility: hidden;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable {
+    opacity: 0.85;
+    padding: 0px;
+    border: 1px solid #ffffff;
+    width: 500px !important;
+}
+
+.clear-default-location{
+	width: 160px !important;
+    background: transparent !important;
+    left: calc(50% - 80px) !important;
+    position: absolute !important;
+	margin-top: 10px;
+}
+
+.clear-default-location:hover{
+	box-shadow: none;
+    background-color: #000b8a !important;
+}
+
+.clear-default-location:focus{
+	border:none;
 }

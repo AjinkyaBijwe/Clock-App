@@ -34,7 +34,7 @@ $(document).ready(function() {
         duration: 1000
       },
       hide: {
-        effect: "blind",
+        effect: "fade",
         duration: 1000
       },
 	  closeOnEscape: false
@@ -71,6 +71,15 @@ function locate() {
     }
 
 };
+
+function clearLocation(){
+	localStorage.clear('defaultLocation');
+	location.reload();
+}
+
+function showDefaultLocationButton(){
+	$('.clear-default-location').show();
+}
 
 
 function initialLoad(){
