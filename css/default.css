@@ -366,6 +366,7 @@ display:inline;
     font-family: Courgette;
     display: table;
     font-weight: bold;
+	pointer-events: none;
     color: #ffffff;
     left: -12.5px;
     background-color: rgba(255, 129, 0, 0.4);
